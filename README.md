@@ -1,11 +1,11 @@
-COVID-19 Risk Prediction | ML Course Project
-Meir Nizri - 312237563
-Introduction
+# COVID-19 Risk Prediction | ML Course Project
+
+## Introduction
 Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people infected with COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
 During the entire course of the pandemic, one of the main problems that healthcare providers have faced is the shortage of medical resources and a proper plan to efficiently distribute them. In these tough times, being able to predict what kind of resource an individual might require at the time of being tested positive or even before that will be of great help to the authorities as they would be able to procure and arrange for the resources necessary to save the life of that patient.
 Using the model described in this report healthcare providers will be able to prioritize patients effectively and thus reduce mortality rates.
 
-Project goals
+## Project goals
 The main goal of this project is to build a machine learning model that, given a Covid-19 patient's current symptom, status, and medical history, will predict whether the patient is in high risk or not. To this end, we will use several classification techniques in machine learning. 
 -	K-Nearest Neighbours
 -	Support Vector Machine
@@ -15,7 +15,7 @@ In each technique we will test a variety of hyperparameters values to get the be
 
 In addition, we would like to analyze how each feature, which will be detailed below, affects the chances of getting a severe illness from Covid-19, and consequently understand who the populations at increased risk are.
 
-Dataset
+## Dataset
 The dataset for this project obtained from Kaggle (link). It was provided by the Mexican government (link). This dataset contains a huge number of anonymized patient-related information including pre-conditions. The raw dataset consists of 40 different features and 1,048,576 unique patients. Since the description of the data and features names was in Spanish, i had to first translate all the features names into English. Thereafter, the following actions were taken to make the data usable. 
 -	All patients who haven't tested positive for COVID-19 were deleted.
 -	Features with unnecessary and irrelevant information have been deleted. 
