@@ -16,7 +16,7 @@ In each technique we will test a variety of hyperparameters values to get the be
 In addition, we would like to analyze how each feature, which will be detailed below, affects the chances of getting a severe illness from Covid-19, and consequently understand who the populations at increased risk are.
 
 ## Dataset
-The dataset for this project obtained from Kaggle (link). It was provided by the Mexican government (link). This dataset contains a huge number of anonymized patient-related information including pre-conditions. The raw dataset consists of 40 different features and 1,048,576 unique patients. Since the description of the data and features names was in Spanish, i had to first translate all the features names into English. Thereafter, the following actions were taken to make the data usable. 
+The dataset for this project obtained from Kaggle <a href="https://www.kaggle.com/omarlarasa/cov19-open-data-mexico">(link)</a>. It was provided by the Mexican government <a href="https://datos.gob.mx/busca/dataset/informacion-referente-a-casos-covid-19-en-mexico">(link)</a>. This dataset contains a huge number of anonymized patient-related information including pre-conditions. The raw dataset consists of 40 different features and 1,048,576 unique patients. Since the description of the data and features names was in Spanish, i had to first translate all the features names into English. Thereafter, the following actions were taken to make the data usable. 
 -	All patients who haven't tested positive for COVID-19 were deleted.
 -	Features with unnecessary and irrelevant information have been deleted. 
 -	For features which have many conclusive values all rows with inconclusive value were filtered. 
